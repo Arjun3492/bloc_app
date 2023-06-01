@@ -19,6 +19,7 @@ class UserPage extends StatelessWidget {
             if (state is UserLoading) {
               return Center(
                   child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const CircularProgressIndicator(),
                   const SizedBox(height: 10),
